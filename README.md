@@ -5,21 +5,18 @@ Automation tests for technical interview.
 
 * Install node.js https://nodejs.org/en/download
 * This project was made using node version 16.17.1
-* Open the terminal and run the following:
+* Install Dependencies:
 
 
 
 
 
 ```
-# Install deps
 npm install
-
 ```
 
-   * Once the install is complete, open Cypress by running the following in the terminal:
+   * Once the install is complete, open Cypress:
 ```
-# Open cypress in browser
 npx cypress open
 ```
 
