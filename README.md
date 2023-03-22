@@ -16,7 +16,8 @@ Automation tests for technical interview.
 npm install
 
 ```
-   * Open Cypress by runnung the flowwling in the terminal:
+
+   * Once the install is complete, open Cypress by running the following in the terminal:
 ```
 # Open cypress in browser
 npx cypress open
