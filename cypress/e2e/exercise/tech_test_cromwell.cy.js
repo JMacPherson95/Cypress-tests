@@ -22,14 +22,14 @@ describe('Tech tests of live categories page', () => {
   });
 
   // GIVEN user is on this category page WHEN the user changes ‘Rows per page:’ to 25 (pagination) THEN 25 products should be displayed
-  it('Should display 25 products when the user selects 25 per page - Top of page', () => {
+  it('Should display 25 products when the user selects 25 per page - Top of page drop down', () => {
     cy.get('[data-testid=paginationRowsPerPageMenu]').first().click();
     cy.get('[data-value=25]').click();
 
     cy.get('[data-testid="ProductCard"]').should('have.length', 25);
   });
 
-  it('Should display 25 products when the user selects 25 per page - Bottom of page', () => {
+  it('Should display 25 products when the user selects 25 per page - Bottom of page drop down', () => {
     cy.get('[data-testid=paginationRowsPerPageMenu]').last().click();
     cy.get('[data-value=25]').click();
 
