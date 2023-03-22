@@ -51,7 +51,7 @@ describe('Tech tests of live categories page', () => {
   });
 
   // GIVEN user is on this category page WHEN the user selects ‘Sort By:’ - ‘Price Low to High’ THEN 10 products should be displayed in order of price (low to high).
-  it.only('10 products should be sorted price low - high', () => {
+  it('10 products should be sorted price low - high', () => {
     cy.get('[data-testid="menuSortBy"]').click();
     cy.get('[data-value="price-asc"]').click();
 
